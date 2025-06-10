@@ -1,0 +1,16 @@
+# Xcode generated and build artifacts
+*.xcarchive
+*.ipa
+*.dSYM
+*.app
+*.xcuserstate
+
+# Build directories
+DerivedData/
+build/
+
+# User data
+**/xcuserdata/
+
+# macOS
+.DS_Store
