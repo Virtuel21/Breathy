@@ -9,8 +9,7 @@ struct SettingsView: View {
             Form {
                 Section(header: Text("Rythme")) {
                     Picker("Rythme", selection: $settings.patternIndex) {
-                        ForEach(Array(BreathingSettings.patterns.enumerated()), id: \.
-0) { index, pattern in
+                        ForEach(Array(BreathingSettings.patterns.enumerated()), id: \.offset) { index, pattern in
                             Text(pattern.name).tag(index)
                         }
                     }
