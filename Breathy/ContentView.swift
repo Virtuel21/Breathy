@@ -1,9 +1,10 @@
 import SwiftUI
 import AVFoundation
+import UIKit
 
 struct ContentView: View {
-    @StateObject private var settings = BreathingSettings()
-    @StateObject private var history = SessionHistory()
+    @EnvironmentObject var settings: BreathingSettings
+    @EnvironmentObject var history: SessionHistory
 
     @State private var running = false
     @State private var inhalePhase = true
@@ -60,7 +61,7 @@ struct ContentView: View {
         running = true
         inhalePhase = true
         timeLeft = settings.durationMinutes * 60
-        history.recordSession()
+        history.recordSession(minutes: settings.durationMinutes)
         playSound()
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
             stepSession()
@@ -113,4 +114,6 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(BreathingSettings())
+        .environmentObject(SessionHistory())
 }
