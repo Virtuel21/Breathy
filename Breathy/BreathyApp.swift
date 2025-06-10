@@ -11,6 +11,7 @@ import SwiftUI
 struct RespireZenApp: App {
     @StateObject private var settings = BreathingSettings()
     @StateObject private var history = SessionHistory()
+    
     var body: some Scene {
         WindowGroup {
             WelcomeView(settings: settings, history: history)
