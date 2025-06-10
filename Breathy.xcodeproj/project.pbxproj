@@ -408,6 +408,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
+                                INFOPLIST_KEY_CFBundleDisplayName = RespireZen;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RespireZen.Breathy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -445,6 +446,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
+                                INFOPLIST_KEY_CFBundleDisplayName = RespireZen;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RespireZen.Breathy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -467,6 +469,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
+                                INFOPLIST_KEY_CFBundleDisplayName = RespireZen;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RespireZen.BreathyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -489,6 +492,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
+                                INFOPLIST_KEY_CFBundleDisplayName = RespireZen;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RespireZen.BreathyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -510,6 +514,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
+                                INFOPLIST_KEY_CFBundleDisplayName = RespireZen;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RespireZen.BreathyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -531,6 +536,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
+                                INFOPLIST_KEY_CFBundleDisplayName = RespireZen;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RespireZen.BreathyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
